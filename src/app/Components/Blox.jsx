@@ -1,7 +1,7 @@
 "use client"
 import React from 'react'
-import Overflow from 'public/itme.jpg'
-import Image from 'next/image'
+
+
 
 
 function Content() {
@@ -13,7 +13,7 @@ function Content() {
       <div className="blox w-[70%] ">
         <div className="tblock p-4 md:flex">
           <div className="w-full md:w-[50%] img ">
-            <Image className='h-[300px] md:h-[400px] w-[400px] border border-blue-600 border-x-2  rounded-full' src={Overflow}  alt='Logo' />
+            <img className='h-[300px] md:h-[400px] w-[400px] border border-blue-600 border-x-2  rounded-full' src="../assets/itme.jpg"  alt='Logo' />
           </div>
           <div className="text-white text-2xl md:w-[600px]">
             <div className="textcenter w-full mt-20 ">
