@@ -2,20 +2,95 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+html{
+    scroll-behavior: smooth;
+}
+body{
+    padding-top: 80px;
+}
+nav{
+    position:fixed;
+    width: 100%;
+    top: 0;
+    z-index: 99999;
+}
+.about{
+    display: hidden;
+}
+.icon{
+    display: hidden;
+}
+.textcon{
+    display: hidden;
+}
+.head{
+    display: hidden;
+}
+:root{
+    background-color:#1A1A1D;
+}
+@keyframes appear {
+    from{
+        opacity: 0;
+        scale: 0.5;
+    }
+    to{
+        opacity: 1;
+        scale: 1;
+    }
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.box{
+    animation: appear linear;
+    animation-timeline:view();
+    animation-range: entry 0;
 }
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+.ac1{
+    animation: appear linear;
+    animation-timeline:view();
+    animation-range: entry 0;
+}
+.ac2{
+    animation: appear linear;
+    animation-timeline:view();
+    animation-range: entry 0;
+}
+.ac3{
+    animation: appear linear;
+    animation-timeline:view();
+    animation-range: entry 0;
+}
+.c1{
+    animation: appear linear;
+    animation-timeline:view();
+    animation-range: entry 0;
+}
+.c2{
+    animation: appear linear;
+    animation-timeline:view();
+    animation-range: entry 0;
+}
+.c3{
+    animation: appear linear;
+    animation-timeline:view();
+    animation-range: entry 0;
+}
+.c4{
+    animation: appear linear;
+    animation-timeline:view();
+    animation-range: entry 0;
+}
+.cer{
+    animation: appear linear;
+    animation-timeline:view();
+    animation-range: entry 0;
+}
+.about{
+    height: 200px;
+}
+.conney{
+    display: hidden;
+}
+.textcon{
+    color: white;
 }
