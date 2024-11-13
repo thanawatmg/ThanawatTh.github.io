@@ -1,8 +1,8 @@
 import React from 'react'
 import Image from 'next/image'
-import Good from '../assets/good.jpg'
-import Arduno from '../assets/arduno.jpg'
-import Kmitl from '../assets/KMITL.jpg'
+import Good from '/assets/good.jpg'
+import Arduno from '/assets/arduno.jpg'
+import Kmitl from '/assets/KMITL.jpg'
 function Activity() {
   return (
     <div className='box '>

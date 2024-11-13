@@ -1,9 +1,9 @@
 import React from 'react'
 import Image from 'next/image'
-import School from '../assets/school.png'
-import Kaset from '../assets/kaset.png'
-import Supergood from '../assets/supergood.png'
-import Imake from '../assets/imake.jpg'
+import School from '/assets/school.png'
+import Kaset from '/assets/kaset.png'
+import Supergood from '/assets/supergood.png'
+import Imake from '/assets/imake.jpg'
 function Certificate() {
   return (
     <div className='box '>
