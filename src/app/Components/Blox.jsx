@@ -1,8 +1,8 @@
 "use client"
 import React from 'react'
-import Overflow from '../assets/itme.jpg'
+import Overflow from 'public/itme.jpg'
 import Image from 'next/image'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
 
 function Content() {
   
