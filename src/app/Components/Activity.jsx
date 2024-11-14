@@ -1,4 +1,5 @@
 import React from 'react'
+import Good from '/good.JPG'
 
 function Activity() {
   return (
@@ -11,7 +12,7 @@ function Activity() {
             <div className="concon flex justify-center">
                 <div className="img p-5 md:grid grid-cols-2 gap-10  w-[200vh]">
                     <div className="ac1  ">
-                        <img src="../assets/good.jpg" alt='good' className='w-full' />
+                        <Image src={Good} alt='good' className='w-full' />
                         <div className="textimg">
                             <span className='text-white'>Compete in the National Science Week Provincial Program for the year 2024. How to design a website that is interesting and usable. Can be designed using any method.</span><br/>
                             <span className='text-white'>ลงแข่งรายการ สัปดาห์วิทยาศาสตร์แห่งชาติ ส่วนภูมิภาค ประจำปี 2567 ทำเกี่ยวกับการออกแบบเว็บไซต์ยังไงให้น่าสนในแล้วสามารถใช้งานได้จริงสามารถออกแบบโดยวิธีใดก็ได้</span>
