@@ -1,5 +1,5 @@
 import React from 'react'
-import Good from '/good.JPG'
+import Good from '../../../public/good.JPG';
 
 function Activity() {
   return (

@@ -4,7 +4,7 @@ import Nav from "./Components/Nav";
 import Blox from "./Components/Blox";
 import Activity from "./Components/Activity";
 import Certificate from "./Components/Certificate";
-import Good from '/good.JPG'
+import Good from '../../public/good.JPG';
 
 export default function Home() {
   return (
