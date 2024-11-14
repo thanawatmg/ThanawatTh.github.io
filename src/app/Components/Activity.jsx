@@ -1,5 +1,7 @@
 import React from 'react'
 import Good from '../../../public/good.JPG';
+import Arduino from '../../../public/arduno.jpg';
+import Kmit from '../../../public/KMITL.JPG';
 import Image from 'next/image';
 
 function Activity() {
@@ -20,14 +22,14 @@ function Activity() {
                         </div>
                     </div>
                     <div className="ac2 ">
-                        <img src="../assets/arduno.jpg" alt='good' className='w-full' />
+                        <Image src={Arduino} alt='good' className='w-full' />
                         <div className="textimg">
                             <span className='text-white'>Training program for using the Arduino board, teaching how to connect electrical circuits, writing codes to operate the Arduino board, and looking at the various connections of the light bulbs used with the board.</span><br/>
                             <span className='text-white'>รายการอบรมการใช้บอร์ด Arduino สอนการต่อวงจรไฟฟ้าการเขียนโค้ดในการสั่งงานตัวบอร์ด Arduino แล้วก็การดูขั่วต่างๆของหลอดไฟที่เอาไว้ใช้กับบอร์ด</span>
                         </div>
                     </div>
                     <div className="ac3">
-                        <img src="../assets/KMITL.jpg" alt='good' className='w-full' />
+                        <Image src={Kmit} alt='good' className='w-full' />
                         <div className="textimg">
                             <span className='text-white'>Participated in the open house event of King Mongkut's Institute of Technology Ladkrabang.</span><br/>
                             <span className='text-white'>เข้าร่วมกิจกรรมงาน Open house ของสถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง</span>

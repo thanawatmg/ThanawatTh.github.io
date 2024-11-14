@@ -1,6 +1,7 @@
 "use client"
 import React from 'react'
-
+import Itme from '../../../public/itme.jpg'
+import Image from 'next/image'
 
 
 
@@ -13,7 +14,7 @@ function Content() {
       <div className="blox w-[70%] ">
         <div className="tblock p-4 md:flex">
           <div className="w-full md:w-[50%] img ">
-            <img className='h-[300px] md:h-[400px] w-[400px] border border-blue-600 border-x-2  rounded-full' src="../assets/itme.jpg"  alt='Logo' />
+            <Image className='h-[300px] md:h-[400px] w-[400px] border border-blue-600 border-x-2  rounded-full' src={Itme}  alt='Logo' />
           </div>
           <div className="text-white text-2xl md:w-[600px]">
             <div className="textcenter w-full mt-20 ">

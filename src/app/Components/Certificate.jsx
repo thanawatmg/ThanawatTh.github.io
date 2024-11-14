@@ -1,4 +1,9 @@
 import React from 'react'
+import Image from 'next/image'
+import Imake from '../../../public/imake.JPG'
+import School from '../../../public/school.PNG'
+import Supergood from '../../../public/supergood.png'
+import Kaset from '../../../public/kaset.PNG'
 
 function Certificate() {
   return (
@@ -10,7 +15,7 @@ function Certificate() {
             <div className="cercon p-5 md:grid grid-cols-2 gap-10">
                 <div className="c1">
                     <div className="img">
-                        <img src="../assets/school.png" alt='school'/>
+                        <Image src={School} alt='school'/>
                     </div>
                     <div className="text">
                         <span className='text-white mb-2'>Received a gold medal award First runner-up in participating in the 71st Student Arts and Crafts Competition, Academic Year 2023, Secondary Educational Service Area Level Nakhon Pathom Province</span><br/>
@@ -20,7 +25,7 @@ function Certificate() {
 
                 <div className="c2">
                     <div className="img">
-                        <img src="../assets/supergood.png" alt='supergood'/>
+                        <Image src={Supergood} alt='supergood'/>
                     </div>
                     <div className="text">
                         <span className='text-white mb-2'>Participate in website design competitions High school level At the National Science Week, Provincial Region, year 2024</span><br/>
@@ -30,7 +35,7 @@ function Certificate() {
 
                 <div className="c3">
                     <div className="img">
-                        <img src="../assets/kaset.png" alt='supergood'/>
+                        <Image src={Kaset} alt='supergood'/>
                     </div>
                     <div className="text">
                         <span className='text-white mb-2'>Participated in the KU ENGINEERING OPEN HOUSE activity of Kasetsart University.</span><br/>
@@ -41,7 +46,7 @@ function Certificate() {
                 <div className="c4">
                     <div className="img">
 
-                        <img src="../assets/imake.jpg" alt='supergood'/>
+                        <Image src={Imake} alt='supergood'/>
                     </div>
                     <div className="text">
                         <span className='text-white mb-2'>Participated in training activities for the Arduino Uro R4 competition of the Faculty of Engineering. King Mongkut's Institute of Technology Ladkrabang together with Imec Innovation Company Limited</span><br/>
