@@ -1,5 +1,6 @@
 import React from 'react'
 import Good from '../../../public/good.JPG';
+import Image from 'next/image';
 
 function Activity() {
   return (
